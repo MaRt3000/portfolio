@@ -14,7 +14,8 @@ const services = [
   {
     id: 3,
     title: "Application  Design",
-    description: "Creating visually appealing and user-friendly application designs.",
+    description:
+      "Creating visually appealing and user-friendly application designs.",
   },
   {
     id: 4,
@@ -36,7 +37,7 @@ const services = [
 const Service = () => {
   return (
     <div
-      className="bg-black text-white pt-[35rem] md:pt-[10rem] lg:pt-16 lg:py-20"
+      className="bg-black text-white pt-[5rem] md:pt-[10rem] lg:pt-[12rem] lg:py-20"
       id="service"
     >
       <div className="container mx-auto px-8 md:px-16 lg:px-24">

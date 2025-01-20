@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
+import HTML from "../assets/html.png";
+import CSS from "../assets/css.png";
+import JavaScript from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import vite from "../assets/vite.png";
 
-
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import tsicon from '../assets/tsicon.png';
+import GitHub from "../assets/github.png";
+import Tailwind from "../assets/tailwind.png";
+import tsicon from "../assets/tsicon.png";
 
 const Experience = () => {
   return (
@@ -22,7 +22,9 @@ const Experience = () => {
           <h2 className="text-4xl font-bold text-center border-b-4 border-pink-600 text-[#d6dffc]">
             My Experience
           </h2>
-          <p className="py-4 text-white">// These are the technologies I've worked with</p>
+          <p className="py-4 text-white">
+            // These are the technologies I've worked with
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
@@ -79,8 +81,8 @@ const Experience = () => {
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-800 px-6 py-6 rounded-lg hover:shadow-lg transform 
               transition-transform"
           >
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4 text-white">Tailwind css</p>
+            <img className="w-20 mx-auto" src={vite} alt="HTML icon" />
+            <p className="my-4 text-white">Vite</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"></div>
         </div>

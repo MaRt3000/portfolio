@@ -3,16 +3,12 @@ import AboutImage from "../assets/aboutme-image.png";
 
 const About = () => {
   return (
-    <div
-      className="pt-[8rem] bg-black text-white py-20 w-full h-screen  "
-      id="about"
-    >
+    <div className="pt-[8rem] bg-black text-white py-6 w-full  " id="about">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col items-center">
           <h2 className="text-4xl font-bold text-center  text-[#d6dffc] mb-12  border-b-4 border-pink-600 ">
             About Me
           </h2>
-          
         </div>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
