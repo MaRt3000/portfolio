@@ -1,10 +1,10 @@
-import React from 'react'
-import HeroImage from '../assets/hero-image.png'
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import React from "react";
+import HeroImage from "../assets/hero-image.png";
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Hero = () => {
   return (
-    <div name="home" className="w-full h-screen bg-black text-white  py-16 ">
+    <div name="home" className="w-full  bg-black text-white  py-16 ">
       <div className="">
         <img
           src={HeroImage}
@@ -33,8 +33,9 @@ const Hero = () => {
             <button
               className="bg-gradient-to-r from-green-500 to-red-700 text-white
             transform transition-transform duration-300 hover:scale-105 rounded-lg  group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-pink-600"
-            ><a href="#project">View Work</a>
-              
+            >
+              <a href="#project">View Work</a>
+
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3 " />
               </span>
@@ -44,6 +45,6 @@ const Hero = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
