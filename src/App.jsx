@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
-import Service from './components/Service'
+// import Service from './components/Service'
 
 import Experience from './components/Experience'
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Service />
+      {/* <Service /> */}
       <Experience />
       <Projects />
       <Contact />

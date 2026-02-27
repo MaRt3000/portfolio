@@ -1,16 +1,15 @@
-import React, {useState}  from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin,} from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import React, { useState } from "react";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import { Link } from 'react-scroll';
-
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  }
+  };
   return (
     <nav className="z-10 fixed w-full bg-black text-white px-8 md:px-16 lg:px-24">
       <div className="container py-2 flex justify-center md:justify-between items-center">
@@ -178,6 +177,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

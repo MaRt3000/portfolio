@@ -1,4 +1,4 @@
-import React from "react";
+
 import AboutImage from "../assets/aboutme-image.png";
 
 const About = () => {
@@ -18,10 +18,11 @@ const About = () => {
           />
           <div className="flex-1">
             <p className="text-lg mb-8 text-[#d6dffc] ">
-              I am a passionate Frontend developer with a focus on building
-              modern and responsive web applications. With a strong foundation
-              in frontend technologies, I strive to create seamless and
-              efficient user experiences.
+             Frontend Engineer with broad experience delivering scalable, high-performance web applications
+using React, Vue, Angular, JavaScript, and TypeScript. Deep expertise in modern UI frameworks
+including Tailwind CSS, Mantine UI, and Material UI (MUI), and modern tooling such as Vite. Strong
+at leading frontend architecture decisions, translating complex business requirements into intuitive
+interfaces, and driving performance, code quality, and usability improvements. Passionate about mentoring junior developers and fostering a culture of continuous learning and innovation.
             </p>
             <div className="space-y-4 ">
               <div className="flex items-center">
@@ -48,7 +49,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12 text-[#d6dffc] ">
-                  Tailwind CSS
+                  API Integration
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -64,9 +65,9 @@ const About = () => {
                   className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500"
                 >
-                  7+
+                  3+
                 </h3>
-                <p className="text-[#d6dffc]">Months Experience</p>
+                <p className="text-[#d6dffc]">Years Experience</p>
               </div>
               <div>
                 <h3

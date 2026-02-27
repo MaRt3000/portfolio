@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
@@ -12,10 +12,10 @@ const Contact = () => {
               className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r 
             from-green-400 to-blue-500 mb-4"
             >
-              Let's Talk
+              Let&apos;s Talk
             </h3>
             <p>
-              I'm open to discussing web development prjectgs or partnership
+              I&apos;m open to discussing web development prjectgs or partnership
               opportunities.
             </p>
             <div className="mb-4 mt-8">

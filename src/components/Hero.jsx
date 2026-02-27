@@ -1,5 +1,5 @@
-import React from "react";
-import HeroImage from "../assets/hero-image.png";
+
+import HeroImage from "../assets/hero-image.jpeg";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Hero = () => {
@@ -21,11 +21,15 @@ const Hero = () => {
               Mart Ogbemudia
             </span>
           </h1>
-          <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-            I'm a Frontend Developer.
+          <div className="text-4xl sm:text-7xl font-bold text-[#8892b0] flex items-center justify-start gap-4">
+            <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+            I&apos;m a 
           </h2>
+          <h2 className="animate-bounce bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">Frontend Engineer.</h2>
+          </div>
+         
           <p className="text-[#d6dffc]  py-4 max-w-[700px]">
-            I’m a Frontend Developer specializing in building (and occasionally
+            I’m a Frontend Engineer specializing in building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
             on building responsive Frontend web applications.
           </p>
